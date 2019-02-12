@@ -9,4 +9,4 @@ app.use('/', serveStatic(path.join(__dirname, '/dist')));
 const port = process.env.PORT || 7878;
 app.listen(port);
 // eslint-disable-next-line
-console.log('Listening Homo');
+console.log('Listening on port' + port);
